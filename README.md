@@ -50,6 +50,11 @@ The [**range**][range] is defined as the difference between the maximum and mini
 ## Usage
 
 ```javascript
+import dmskrange from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dmskrange@esm/index.mjs';
+```
+The previous example will load the latest bundled code from the esm branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/stats-base-dmskrange/tags). For example,
+
+```javascript
 import dmskrange from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dmskrange@v0.2.0-esm/index.mjs';
 ```
 
@@ -177,7 +182,7 @@ import randu from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-base-randu@esm/i
 import round from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-round@esm/index.mjs';
 import Float64Array from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-float64@esm/index.mjs';
 import Uint8Array from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-uint8@esm/index.mjs';
-import dmskrange from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dmskrange@v0.2.0-esm/index.mjs';
+import dmskrange from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dmskrange@esm/index.mjs';
 
 var mask;
 var x;
